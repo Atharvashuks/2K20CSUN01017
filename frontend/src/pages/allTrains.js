@@ -7,7 +7,7 @@ const instance = axios.create({
   baseURL: baseURL,
 });
 
-const getUser = () => async () => {
+const getAllTrains = () => async () => {
   try {
     const { data } = await instance.get("api/trains/getTrains", {
     //   headers: {
@@ -28,6 +28,9 @@ const getUser = () => async () => {
 
 export const allTrains = () => {
   return (
+    {{
+    getAllTrains()
+    }}
     <div>data</div>
   )
 }
