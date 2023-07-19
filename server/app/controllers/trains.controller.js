@@ -42,7 +42,7 @@ const getALlTrains = async (req,res) => {
     url: "http://20.244.56.144/train/trains",
     headers: {
       Authorization:
-        "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2ODk3Nzc3OTksImNvbXBhbnlOYW1lIjoiQUJDIFJhaWx3YXlzIiwiY2xpZW50SUQiOiIzZjkwMWZkMC05MzcwLTRjMTktYjkxZC05ZTMyN2M1MzgxNzciLCJvd25lck5hbWUiOiIiLCJvd25lckVtYWlsIjoiIiwicm9sbE5vIjoiMksyMENTVU4wMTAxNyJ9.1_WuDyJ3N1gc6vPVXjAIS_rAG-fItuMglq_BlVUCbPs",
+        "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2ODk3NzkwNzksImNvbXBhbnlOYW1lIjoiQUJDIFJhaWx3YXlzIiwiY2xpZW50SUQiOiIzZjkwMWZkMC05MzcwLTRjMTktYjkxZC05ZTMyN2M1MzgxNzciLCJvd25lck5hbWUiOiIiLCJvd25lckVtYWlsIjoiIiwicm9sbE5vIjoiMksyMENTVU4wMTAxNyJ9.GO2JhJZ-OppXkmbGGADFgCMJqMlPUozY2mIEXnZ9mi4",
     },
   };
 
